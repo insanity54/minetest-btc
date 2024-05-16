@@ -1,0 +1,3 @@
+btc_enable_shop (Enable the in-game craftable shop item) bool true
+btc_enable_ui (Enable a Lightning Network tab in the player inventory) bool true
+btc_service_fee (The percentage of sale that the server operator takes as fee. Range 0-50) int 1

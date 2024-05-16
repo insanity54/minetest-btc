@@ -1,0 +1,12 @@
+  name: mtt-runner
+  on: [push, pull_request]
+  jobs:
+    test:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v2
+        - uses: buckaroobanzay/mtt@v1.0
+          with:
+            modname: btc
+            additional_config: |
+              secure.http_mods = btc
